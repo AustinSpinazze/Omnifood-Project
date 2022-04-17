@@ -1,1 +1,1 @@
-# Frontend Mentor and Responsive Design Projects
+# Frontend Mentor Projects and CSS Notebook
