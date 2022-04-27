@@ -89,6 +89,10 @@ body {
 	row-gap: 9.6rem;
 }
 
+.grid:not(:last-child) {
+	margin-bottom: 9.6rem;
+}
+
 .grid--2-cols {
 	grid-template-columns: repeat(2, 1fr);
 }
@@ -191,6 +195,26 @@ body {
 .link:active {
 	color: #cf711f;
 	border-bottom: 1px solid transparent;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+	list-style: none;
+}
+
+.list-item {
+	display: flex;
+	align-items: center;
+	gap: 1.6rem;
+	font-size: 1.8rem;
+}
+
+.list-icon {
+	width: 3rem;
+	height: 3rem;
+	color: #e67e22;
 }
 
 /********************************/
