@@ -126,6 +126,7 @@
 	/* MOBILE NAVIGATION */
 	.btn-mobile-nav {
 		display: block;
+		z-index: 5;
 	}
 
 	.main-nav {
@@ -140,7 +141,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		transition: all 0.5s ease-in;
+		transition: all 0.3s ease-in;
 
 		/* Opacity set to 0 when nav-open class not added by JS */
 		/* 1) Hide element visually */
