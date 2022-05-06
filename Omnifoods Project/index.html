@@ -21,11 +21,17 @@
 			nomodule=""
 			src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
 		></script>
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+		<script defer src="js/script.js"></script>
 		<title>Omnifood</title>
 	</head>
 	<body>
-		<header class="header">
-			<a href="#">
+		<header class="header" id="top">
+			<a href="#top">
 				<img
 					src="img/omnifood-logo.png"
 					alt="Omnifood logo"
@@ -79,10 +85,10 @@
 							will make you eat healthy again. Tailored to your
 							personal tastes and nutritional needs.
 						</p>
-						<a href="#" class="btn btn--full margin-right-sm"
+						<a href="#cta" class="btn btn--full margin-right-sm"
 							>Start eating well</a
 						>
-						<a href="#" class="btn btn--outline"
+						<a href="#how-it-works" class="btn btn--outline"
 							>Learn more &darr;</a
 						>
 						<div class="delivered-meals">
@@ -711,7 +717,7 @@
 							</p>
 							<form class="cta-form" action="#">
 								<div>
-									<label for="name">Full Name</label>
+									<label for="full-name">Full Name</label>
 									<input
 										id="full-name"
 										type="text"
@@ -766,7 +772,7 @@
 		<footer class="footer">
 			<div class="container grid grid--footer">
 				<div class="footer-logo-container">
-					<a class="footer-logo" href="#">
+					<a class="footer-logo" href="#top">
 						<img
 							src="img/omnifood-logo.png"
 							alt="Omnifood logo"
@@ -802,8 +808,8 @@
 					</ul>
 
 					<p class="copyright">
-						Copyright &copy; 2027 by Omnifood, Inc. All rights
-						reserved.
+						Copyright &copy; <span class="year">2027</span> by
+						Omnifood, Inc. All rights reserved.
 					</p>
 				</div>
 				<div class="footer-address-container">
